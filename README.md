@@ -49,3 +49,50 @@ The project includes comprehensive tests covering various boundary conditions:
 - `Invalid format`: Open on error
 - `Negative salary`
 - `Empty names`
+
+
+# Cats Info Analyzer
+
+A Python project that reads cat information from text files and returns structured data as a list of dictionaries.
+
+## Project Description
+
+This project implements a function `get_cats_info(path)` that reads cat data from a text file and returns a list of dictionaries with information about each cat. The function handles various edge cases and provides comprehensive error handling with full type annotations.
+
+## File Format
+
+The input file should contain cat data in the following format:
+```
+cat_id,cat_name,age
+60b90c1c13067a15887e1ae1,Tayson,3
+60b90c2413067a15887e1ae2,Vika,1
+60b90c2e13067a15887e1ae3,Barsik,2
+```
+
+Each line contains:
+- Cat ID (string, cannot be empty)
+- Cat name (string, cannot be empty)
+- Age (integer, cannot be negative)
+
+### Expected Output Format
+
+```python
+[
+    {"id": "60b90c1c13067a15887e1ae1", "name": "Tayson", "age": "3"},
+    {"id": "60b90c2413067a15887e1ae2", "name": "Vika", "age": "1"},
+    {"id": "60b90c2e13067a15887e1ae3", "name": "Barsik", "age": "2"},
+]
+```
+
+## Test Data Files
+
+- `valid_cats.txt`
+- `single_cat.txt`
+- `empty_file.txt`
+- `invalid_format.txt`
+- `empty_fields.txt`
+- `negative_age.txt`
+- `invalid_age.txt`
+- `empty_lines.txt`
+- `whitespace_data.txt`
+- `zero_age.txt`
