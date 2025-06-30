@@ -1,0 +1,10 @@
+Alex Korp,3000
+Nikita Borisenko,2000
+Sitarama Raju,1000
+John Smith,4500
+Emma Johnson,3200
+Michael Brown,2800
+Sarah Davis,3700
+David Wilson,2100
+Lisa Anderson,4000
+James Taylor,3300 

@@ -1,0 +1,4 @@
+John Doe,invalid_salary
+Jane Smith,2000
+Bob Johnson,three_thousand
+Alice Wilson,1500 

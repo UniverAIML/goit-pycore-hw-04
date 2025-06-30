@@ -1,0 +1,4 @@
+Intern Smith,0
+John Doe,3000
+Jane Smith,0
+Bob Johnson,2500 

@@ -1,0 +1,4 @@
+John,Doe,3000
+Jane Smith,2000
+Bob,Green,Blue,1500
+Alice Wilson,3200 

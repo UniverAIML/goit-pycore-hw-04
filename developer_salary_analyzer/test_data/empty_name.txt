@@ -1,0 +1,4 @@
+,3000
+John Smith,2000
+ ,1500
+Alice Wilson,3200 

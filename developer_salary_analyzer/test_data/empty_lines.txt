@@ -1,0 +1,6 @@
+Alice Brown,2500
+
+Bob Green,3000
+
+
+Charlie White,1800 
