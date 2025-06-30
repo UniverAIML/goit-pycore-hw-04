@@ -96,3 +96,17 @@ Each line contains:
 - `empty_lines.txt`
 - `whitespace_data.txt`
 - `zero_age.txt`
+
+
+# Directory Visualizer
+A command-line script that visualizes directory structure with beautiful colored output using tree-like formatting.
+
+`Location`: `directory_visualizer/`
+
+Installation:
+```bash
+cd directory_visualizer
+python -m venv venv
+source venv/Scripts/activate
+pip install -r requirements.txt
+```
