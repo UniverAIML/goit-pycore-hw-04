@@ -101,12 +101,70 @@ Each line contains:
 # Directory Visualizer
 A command-line script that visualizes directory structure with beautiful colored output using tree-like formatting.
 
-`Location`: `directory_visualizer/`
+**Location**: `directory_visualizer/`
 
-Installation:
+**Features**:
+- 🎨 **Colored Output**: Different colors for directories and files
+- 📁 **Tree Structure**: Beautiful tree-like visualization with Unicode characters
+- 🚀 **Fast Performance**: Efficient recursive directory traversal
+- 🛡️ **Error Handling**: Robust error handling for permissions and file access
+
+**Usage**:
+```bash
+python hw03.py /path/to/directory
+```
+
+**Installation**:
 ```bash
 cd directory_visualizer
 python -m venv venv
 source venv/Scripts/activate
 pip install -r requirements.txt
+```
+
+
+# Console Bot Assistant
+
+A console bot that manages contacts with names and phone numbers. The bot recognizes commands entered from the keyboard and responds accordingly.
+
+**Location**: `console_bot_assistant/`
+
+**Features**:
+- 📞 **Contact Management**: Add, change, and view contacts
+- 🔤 **Case Insensitive**: Commands work regardless of case
+- ⚠️ **Error Handling**: Proper validation and error messages
+- 🔄 **Interactive CLI**: Continuous loop for user interaction
+- 🏗️ **Clean Architecture**: Separate functions for each command
+
+**Commands**:
+- `hello` - Greet the user
+- `add [name] [phone]` - Add a new contact
+- `change [name] [phone]` - Change existing contact's phone number
+- `phone [name]` - Show phone number for a contact
+- `all` - Show all contacts
+- `close/exit` - Exit the bot
+
+**Usage**:
+```bash
+cd console_bot_assistant
+python bot.py
+```
+
+**Example Session**:
+```
+Welcome to the assistant bot!
+Enter a command: add John 1234567890
+Contact added.
+Enter a command: phone John
+1234567890
+Enter a command: all
+John: 1234567890
+Enter a command: close
+Good bye!
+```
+
+**Testing**:
+```bash
+cd console_bot_assistant
+python test_bot.py
 ```
